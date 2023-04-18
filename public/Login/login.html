@@ -1,0 +1,30 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style2.css">
+  </head>
+  <body>
+    <form onsubmit="login(event)">
+      <label for="email">Enter email : </label>
+      <input type="email" name="email" required />
+      <br />
+     
+      <label for="password">Enter password : </label>
+      <input type="password" name="password" required />
+      <br />
+      
+      <button>Login</button> <br>
+      <button onclick="forgotpassword()">Forgot Password</button><br>
+      <a href="../Signup/signup.html">New User - Signup Now</a>
+    </form>
+    
+    <br />
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.6/axios.min.js"></script>
+    <script src="./login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+/* Apply some basic styling to the form and its elements */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 250px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Center the "Existing User - Login" link
+  a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  } */
+  
+  /* Apply some basic styling to the document */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
